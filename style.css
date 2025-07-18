@@ -1,11 +1,11 @@
 :root {
   font-size: 62.5%;
 
-  --color-primary: hsl(235, 35%, 19%);
-  --color-secondary: hsl(358, 78%, 69%);
-  --color-font: hsl(0, 0%, 100%);
+  --color-primary: rgb(255, 193, 218);
+  --color-secondary: rgb(0, 0, 0);
+  --color-font: rgb(133, 25, 60);
 
-  --color-shadow: hsl(235, 36%, 35%);
+  --color-shadow: rgb(255, 144, 187);
 }
 
 * {
@@ -110,31 +110,31 @@ section {
 }
 
 .time {
-    position: relative;
-    display: flex;
-    flex-direction: row;
+  position: relative;
+  display: flex;
+  flex-direction: row;
 }
 
 .time p {
-    font-size: 5.6rem;
+  font-size: 5.6rem;
 }
 
 .time p:nth-of-type(2) {
-    position: relative;
-    top: -.5rem;
-    margin-inline: 1rem;
+  position: relative;
+  top: -0.5rem;
+  margin-inline: 1rem;
 }
 
 .controls {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .controls button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .controls #reset {
-    display: none;
+  display: none;
 }
